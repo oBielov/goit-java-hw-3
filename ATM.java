@@ -7,7 +7,7 @@ public class ATM{
         int quant = 0;
         int nominalCount = 0;
         
-        while(nominalCount < 9){
+        while(nominalCount < nominals.length){
             temp = nominals[nominalCount];
             quant += sum/temp;
             sum %= temp;
